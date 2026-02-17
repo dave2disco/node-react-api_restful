@@ -2,32 +2,14 @@
 
 API RESTful con **Node.js + Express**, database **PostgreSQL** e frontend **React**.
 
-## Funzionalità
-- Creazione e visualizzazione utenti
-- Persistenza dei dati con PostgreSQL
-- Interfaccia grafica semplice e intuitiva
+**Funzionalità:** creazione e visualizzazione utenti con interfaccia grafica.
 
-## Avvio del progetto
+**Avvio veloce:**
+1. Clona il repository
+2. `docker-compose up -d` per PostgreSQL
+3. `node index.js` per il backend
+4. `cd frontend && npm install && npm start` per il frontend
 
-1. Clona il repository:
-```bash
-git clone https://github.com/TUO_USERNAME/node-react-api_restful.git
-cd node-react-api_restful
-Avvia il database con Docker:
+Apri `http://localhost:3001` nel browser.
 
-bash
-Copia codice
-docker-compose up -d
-Avvia il backend:
-
-bash
-Copia codice
-node index.js
-Avvia il frontend:
-
-bash
-Copia codice
-cd frontend
-npm install
-npm start
-Apri il browser su http://localhost:3001.
+> `.env` non incluso per sicurezza.
